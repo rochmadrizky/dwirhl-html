@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="dist/output.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="fixed top-0 left-0 right-0 z-50">
+        <nav class="md:max-w-3xl mx-auto">
+            <div class="flex items-center justify-between h-16 w-full bg-slate-300 px-2 md:px-4">
+                
+                <button type="button">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M18 6l-12 12"></path>
+                        <path d="M6 6l12 12"></path>
+                    </svg>
+
+                </button>
+
+                <span class="font-semibold text-lg">Edit Post</span>
+
+                <button type="button" class="h-8 w-20 bg-gray-600 rounded-md">
+                    <span class="font-semibold text-white">
+                        Save
+                    </span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <section id="edit">
+        <div class="max-w-3xl mx-auto bg-slate-100 my-16">
+
+            <div class="max-h-screen mx-auto flex items-center justify-center pt-12 px-6">
+                <div class="rounded-lg mx-auto">
+                    <img src="https://fastly.picsum.photos/id/12/400/400.jpg?hmac=_x7bdkIicWlWJj5_Ps41JHkOLSYMGUICCRq-lCytIZA" alt="" class="rounded-lg">
+                </div>
+            </div>
+
+            <a href="#" class="flex items-center justify-center pt-2 pb-12">
+                <span class="text-sm md:text-base font-semibold">Change photo</span>
+            </a>
+
+            <form action="">
+                <div class="w-full px-4 mb-8">
+                    <label for="deskripsi" class="text-sm text-slate-500">CAPTION/HASTAG</label>
+                    <textarea type="text" id="deskripsi" class="w-full p-3 bg-slate-200 rounded-md h-24 focus:outline-none"></textarea>
+                </div>
+
+                <div class="w-full px-4 mb-8">
+                    <label for="schedule" class="text-sm text-slate-500">SCHEDULE</label>
+                    <input type="text" id="schedule" class="w-full p-3 bg-slate-200 rounded-md focus:outline-none">
+                </div>
+            </form>
+
+            <div class="flex items-center justify-center pb-7">
+                <button type="button" class="border-2 bg-slate-200 h-10 w-28 rounded-lg">
+                <span class="font-semibold">Submit</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="fixed bottom-0 left-0 right-0 z-50">
+        <div class="md:max-w-3xl mx-auto">
+
+            <ul class="flex items-center justify-between h-16 w-full bg-slate-300 px-5 md:px-20">
+                <li>
+                    <a href="#" class="flex items-center gap-2 pb-1 border-b-4 border-transparent hover:border-black">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrows-random" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M20 21h-4v-4"></path>
+                            <path d="M16 21l5 -5"></path>
+                            <path d="M6.5 9.504l-3.5 -2l2 -3.504"></path>
+                            <path d="M3 7.504l6.83 -1.87"></path>
+                            <path d="M4 16l4 -1l1 4"></path>
+                            <path d="M8 15l-3.5 6"></path>
+                            <path d="M21 5l-.5 4l-4 -.5"></path>
+                            <path d="M20.5 9l-4.5 -5.5"></path>
+                        </svg>
+    
+                        <span class="text-sm md:text-lg font-semibold">Feed</span>
+
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="flex items-center gap-2 pb-1 border-b-4 border-transparent hover:border-black">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-google-analytics" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M10 9m0 1.105a1.105 1.105 0 0 1 1.105 -1.105h1.79a1.105 1.105 0 0 1 1.105 1.105v9.79a1.105 1.105 0 0 1 -1.105 1.105h-1.79a1.105 1.105 0 0 1 -1.105 -1.105z"></path>
+                            <path d="M17 3m0 1.105a1.105 1.105 0 0 1 1.105 -1.105h1.79a1.105 1.105 0 0 1 1.105 1.105v15.79a1.105 1.105 0 0 1 -1.105 1.105h-1.79a1.105 1.105 0 0 1 -1.105 -1.105z"></path>
+                            <path d="M5 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                        </svg>
+    
+                        <span class="text-sm md:text-lg font-semibold">Analytics</span>
+
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="flex items-center gap-2 pb-1 border-b-4 border-transparent hover:border-black">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M5 9l14 0"></path>
+                            <path d="M5 15l14 0"></path>
+                            <path d="M11 4l-4 16"></path>
+                            <path d="M17 4l-4 16"></path>
+                        </svg>
+    
+                        <span class="text-sm md:text-lg font-semibold">Hastags</span>
+
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </footer>
+
+</body>
+</html>
